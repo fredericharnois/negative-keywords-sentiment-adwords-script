@@ -32,7 +32,6 @@ var USERNAME = "INSERT_USERNAME";
 var PASSWORD = "INSERT_PASSWORD";
 
 // DO NOT TOUCH
-var API_VERSION = "v201708"
 var MICRO_AMOUNT_MULTIPLIER = 1000000
 
 function main() {
@@ -60,8 +59,7 @@ function main() {
       " FROM SEARCH_QUERY_PERFORMANCE_REPORT" +
       " WHERE QueryTargetingStatus = " + "NONE" +
       " AND Cost > " + COST_THRESHOLD * MICRO_AMOUNT_MULTIPLIER +
-      " DURING " + DATE_RANGE, {
-      apiVersion: API_VERSION});
+      " DURING " + DATE_RANGE);
     var rows = report.rows();
     
     // Loop through the search queries
