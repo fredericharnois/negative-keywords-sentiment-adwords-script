@@ -2,7 +2,7 @@
 *
 * Exclude Keywords Based On Sentiment Analysis
 *
-* This script search queries and excludes
+* This script fetches search queries and excludes
 * those that have a negative sentiment.
 *
 * Powered by Watson Natural Language Understanding
