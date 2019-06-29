@@ -8,7 +8,9 @@
 * Powered by Watson Natural Language Understanding
 *
 * Version: 1.0
-* Google AdWords Script maintained by Frederic Harnois
+*
+* Google Ads Script maintained by Frederic Harnois
+* fred@fredericharnois.com
 *
 **/
 
